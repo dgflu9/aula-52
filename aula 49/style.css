@@ -1,0 +1,88 @@
+
+
+/*.titulo *{
+    border:solid;
+}*/
+
+.titulo{
+    background-color: darkviolet;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.jogos {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.roda_pe {
+    display:flex;
+    justify-content: flex-end;
+}
+
+p,h2,h3{
+   text-align: center;
+}
+
+body{
+    background-color: 	#000000;
+    border: solid darkviolet ;
+}
+
+h2,h3{
+   color: darkviolet;
+}
+
+
+
+.nao_sei{
+    color:darkviolet;
+}
+
+.minhas_coisas{
+    font-size: 30px;
+    margin-right:30px;
+    margin-top: 55px;
+  
+
+}
+
+h1{
+    margin-left:30px;
+    border:solid;
+}
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
+
+.minhas_coisas a{
+   
+    margin-left: 20px;
+    
+}
+
+.T-rex{
+    position:relative;
+}
+
+.T-rex p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+
+.T-rex:hover p{
+    opacity:1;
+}
+
+.T-rex:hover img{
+    opacity: 0.3;
+}
